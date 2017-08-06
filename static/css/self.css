@@ -1,0 +1,51 @@
+.big-title {
+    position:relative;
+    margin-bottom:1rem;
+    z-index:1;
+    font-size:4em;
+    font-weight:700;
+    text-transform:uppercase;
+    font-family: "Courier", monospace;
+    text-shadow:2px 3px #1476A2
+}
+.big-subtitle {
+    position:relative;
+    z-index:1;
+    font-size:1.5em;
+    font-weight:700;
+    font-family: "Courier New", monospace;
+}
+
+.big {
+    position:relative;
+    margin:1rem 0;
+    padding:2.5rem 0;
+    color:white;
+    background-color:#2e2e2e;
+    background-size:25px auto;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden
+}
+
+.navar-header {
+    font-style: bold;
+    font-size: 2em;
+    font-family: "Courier", monospace;
+}
+
+.navar-text {
+    font-size: 1.2em;
+    font-family: Courier New, Courier, monospace;
+}
+
+.navar-readmore {
+    font-size: 1.2em;
+    font-family: Courier, monospace;
+    text-align: right;
+}
+.bottom-text {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 1em;
+    font-family: Courier, monospace;
+}
