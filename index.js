@@ -22,7 +22,7 @@ app.get('/publications', function(req, res) {
     res.sendfile(path.join(__dirname, '/static/html/publications.html'));
 });
 
-// publications.html handler
+// award.html handler
 app.get('/award', function(req, res) {
     res.sendfile(path.join(__dirname, '/static/html/award.html'));
 });
