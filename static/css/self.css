@@ -49,3 +49,12 @@
     font-size: 1em;
     font-family: Courier, monospace;
 }
+
+.self-button {
+    -webkit-font-smoothing:antialiased;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    font-size: 1em;
+    font-family: Courier, monospace;
+}
