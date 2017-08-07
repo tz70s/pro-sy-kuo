@@ -7,10 +7,11 @@
 import sys
 
 # File lists
+# The two file lists should be aligned.
 files = ["./static/html/award.html"]
-target_files_prefix = ["./docs/html/award.html"]
-# Variables of parsing
+target_files = ["./award.html"]
 
+# Variables of parsing
 
 def parse_args():
     if len(sys.argv) < 3:
@@ -27,10 +28,9 @@ def parse_args():
 original_prefix, new_prefix = parse_args()
 
 # parse the publications_ref into the appropriate html format
-with open("./award.html") as f:
-    content = f.read()
-    new_content = content.replace(original_prefix, new_prefix)
-
-with open("./award-static.html", "w+") as f:
-    f.write(new_content)
-    
+for i in range(len(files)):
+	with open(files[i]) as f:
+		content = f.read()
+		new_content = content.replace(original_prefix, new_prefix)
+	with open(target_files[i], "w+") as f:
+		f.write(new_content)
