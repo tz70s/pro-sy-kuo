@@ -26,6 +26,16 @@ app.get('/publications', function(req, res) {
 app.get('/award', function(req, res) {
     res.sendfile(path.join(__dirname, '/static/html/award.html'));
 });
+
+// editorship.html handler
+app.get('/editorship', function(req, res) {
+    res.sendfile(path.join(__dirname, '/static/html/editorship.html'));
+});
+
+// activity.html handler
+app.get('/activity', function(req, res) {
+    res.sendfile(path.join(__dirname, '/static/html/activity.html'));
+});
 // server runs at :9111
 var server = app.listen(9111, function () {
     var host = server.address().address;
