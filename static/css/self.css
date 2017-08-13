@@ -36,6 +36,8 @@
 }
 
 .navar-text {
+    text-align: justify;
+    text-justify:inter-ideograph;
     font-size: 1.2em;
     font-family: Courier New, Courier, monospace;
 }
