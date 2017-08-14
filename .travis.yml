@@ -1,6 +1,7 @@
 language: python
 
 script:
+  - ./script/mkdoc.sh
   - python scripts/sgen.py http://127.0.0.1:9111/ https://tz70s.github.io/pro-sy-kuo/
   - ./scripts/gh-gen.sh
 deploy:
