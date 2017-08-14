@@ -6,6 +6,8 @@
 * Profile
 * Publications
 * Awards and Honors
+* Editorship
+* Activities
 
 #### Execution
 

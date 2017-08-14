@@ -5,22 +5,23 @@
 
 
 import sys
-from os import walk, path
+from os import walk, path, environ
 
 # File lists
 # The two file lists should be aligned.
 
+root = environ['TRAVIS_BUILD_DIR']
 files = []
-for (dirpath, dirname, filenames) in walk("./static"):
+for (dirpath, dirname, filenames) in walk( root + "/static"):
     for f in filenames:
         if ".html" in f:
             files.append(dirpath + "/" + f)
 
 # prefix of target files
-target_prefix = "./docs"
+target_prefix = root + "/docs"
 target_files = []
 for f in files:
-    target_files.append(f.replace("./static", target_prefix))
+    target_files.append(f.replace( root + "/static", target_prefix))
 print(target_files)
 
 # Variables of parsing

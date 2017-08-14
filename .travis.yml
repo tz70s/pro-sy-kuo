@@ -1,0 +1,11 @@
+language: python
+
+script:
+  - python scripts/sgen.py http://127.0.0.1:9111/ https://tz70s.github.io/pro-sy-kuo/
+  - ./scripts/gh-gen.sh
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
