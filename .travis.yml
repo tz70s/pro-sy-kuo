@@ -1,0 +1,4 @@
+language: python
+
+script:
+	- python scripts/sgen.py http://127.0.0.1:9111/ https://tz70s.github.io/pro-sy-kuo/
