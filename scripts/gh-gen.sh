@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mv ../docs/index.html ..
+mv $TRAVIS_BUILD_DIR/docs/* $TRAVIS_BUILD_DIR
