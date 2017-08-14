@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mv ../docs/* ..
+mv ../docs/index.html ..
