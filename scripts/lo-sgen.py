@@ -10,7 +10,7 @@ from os import walk, path, environ
 # File lists
 # The two file lists should be aligned.
 
-root = environ['TRAVIS_BUILD_DIR']
+root = '..'
 files = []
 for (dirpath, dirname, filenames) in walk( root + "/static"):
     for f in filenames:

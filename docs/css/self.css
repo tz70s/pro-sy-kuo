@@ -36,6 +36,8 @@
 }
 
 .navar-text {
+    text-align: justify;
+    text-justify:inter-ideograph;
     font-size: 1.2em;
     font-family: Courier New, Courier, monospace;
 }
@@ -80,4 +82,36 @@ ul {
 li {
 	list-style-position: outside;
 	list-style-type: disc;
+}
+
+div.tab {
+    background-color: #f1f1f1;
+    width: 90%;
+    height: 300px;
+    margin-left:50px 
+}
+
+div.tab button {
+    background-color: inherit;
+    color: black;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Courier", monospace;
+    padding: 22px 16px;
+}
+
+div.tab h2{
+    margin-top:0px;
+    height:70px;
+    background-color:#2e2e2e;
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Courier", monospace;
+    padding: 30px 10px;
 }
