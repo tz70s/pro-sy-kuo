@@ -20,6 +20,9 @@ for (dirpath, dirname, filenames) in walk( root + "/static"):
 target_prefix = root + "/docs"
 target_files = []
 for f in files:
+    if f == ( root + "/static/html/index.html"):
+        target_files.append( target_prefix + "/index.html" )
+        continue
     target_files.append(f.replace( root + "/static", target_prefix))
 print(target_files)
 
