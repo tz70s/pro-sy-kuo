@@ -1,0 +1,143 @@
+.big-title {
+    position:relative;
+    margin-bottom:1rem;
+    z-index:1;
+    font-size:4em;
+    font-weight:700;
+    text-transform:uppercase;
+    font-family: "Palatino", Palatino;
+    color: #023F4D;
+    text-shadow:3px 3px #B4DCA9;
+}
+.big-subtitle {
+    position:relative;
+    z-index:1;
+    font-size:1.5em;
+    font-weight:700;
+    font-family: "Palatino", Palatino;
+    color: #BEE5ED;
+    font-style: italic;
+}
+
+.big {
+    position:relative;
+    margin:1rem 0;
+    padding:2.5rem 0;
+    color:white;
+    background-color:#2e2e2e;
+    background-size:25px auto;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+}
+
+.navar-header {
+    font-style: bold;
+    font-size: 2em;
+    font-family: "Palatino", Palatino;
+    padding-bottom: 0em;
+    font-weight: bold;
+}
+
+.navar-text {
+    text-align: justify;
+    text-justify:inter-ideograph;
+    font-size: 1.2em;
+    line-height: 2em;
+    font-family: Palatino, Palatino, Palatino;
+}
+
+.navar-readmore {
+    font-size: 1.2em;
+    font-family: Palatino, Palatino;
+    text-align: right;
+}
+
+.navar-readmore a{
+    color: #08170F;
+    font-size: 1.2em;
+    font-family: Palatino, Palatino;
+    text-align: right;
+}
+
+.bottom-text {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 1em;
+    font-family: Palatino, Palatino;
+}
+
+.navar-button {
+    background-color: #FFFFFF;
+    font-size: 1em;
+    font-family: Palatino, Palatino;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.navar-button a {
+    color: #000000;
+    font-size: 1em;
+    font-family: "Palatino", Palatino;
+    font-weight: 800;
+}
+
+ul {
+    height:auto;
+    padding-left: 1em;
+}
+li {
+	list-style-position: outside;
+	list-style-type: disc;
+}
+
+div.tab {
+    background-color: #f1f1f1;
+    width: 90%;
+    height: 300px;
+    margin-left:50px 
+}
+
+div.tab button {
+    background-color: inherit;
+    color: black;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Palatino", Palatino;
+    padding: 22px 16px;
+}
+
+div.tab h2{
+    margin-top:0px;
+    height:70px;
+    background-color:#2e2e2e;
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Palatino", Palatino;
+    padding: 30px 10px;
+}
+
+.col-sm-3half, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-3half, .col-sm-8half {
+        float: left;
+    }
+    .col-sm-3half {
+        width: 20%;
+    }
+    .col-sm-8half {
+        width: 80%;
+    }
+}
