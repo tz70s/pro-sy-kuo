@@ -5,15 +5,18 @@
     font-size:4em;
     font-weight:700;
     text-transform:uppercase;
-    font-family: "Courier", monospace;
-    text-shadow:2px 3px #778899;
+    font-family: "Palatino", Palatino;
+    color: #023F4D;
+    text-shadow:3px 3px #B4DCA9;
 }
 .big-subtitle {
     position:relative;
     z-index:1;
     font-size:1.5em;
     font-weight:700;
-    font-family: "Courier New", monospace;
+    font-family: "Palatino", Palatino;
+    color: #BEE5ED;
+    font-style: italic;
 }
 
 .big {
@@ -24,13 +27,13 @@
     background-color:#2e2e2e;
     background-size:25px auto;
     -webkit-font-smoothing:antialiased;
-    overflow:hidden
+    overflow:hidden;
 }
 
 .navar-header {
     font-style: bold;
     font-size: 2em;
-    font-family: "Courier", monospace;
+    font-family: "Palatino", Palatino;
     padding-bottom: 0em;
     font-weight: bold;
 }
@@ -39,19 +42,20 @@
     text-align: justify;
     text-justify:inter-ideograph;
     font-size: 1.2em;
-    font-family: Courier New, Courier, monospace;
+    line-height: 2em;
+    font-family: Palatino, Palatino, Palatino;
 }
 
 .navar-readmore {
     font-size: 1.2em;
-    font-family: Courier, monospace;
+    font-family: Palatino, Palatino;
     text-align: right;
 }
 
 .navar-readmore a{
     color: #08170F;
     font-size: 1.2em;
-    font-family: Courier, monospace;
+    font-family: Palatino, Palatino;
     text-align: right;
 }
 
@@ -59,20 +63,23 @@
     text-align: center;
     color: #2e2e2e;
     font-size: 1em;
-    font-family: Courier, monospace;
+    font-family: Palatino, Palatino;
 }
 
 .navar-button {
     background-color: #FFFFFF;
     font-size: 1em;
-    font-family: Courier, monospace;
+    font-family: Palatino, Palatino;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .navar-button a {
     color: #000000;
     font-size: 1em;
-    font-family: "Courier", monospace;
-    font-weight: bold;
+    font-family: "Palatino", Palatino;
+    font-weight: 800;
 }
 
 ul {
@@ -99,7 +106,7 @@ div.tab button {
     text-align: left;
     font-size: 15px;
     font-weight: bold;
-    font-family: "Courier", monospace;
+    font-family: "Palatino", Palatino;
     padding: 22px 16px;
 }
 
@@ -112,6 +119,25 @@ div.tab h2{
     border: none;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Courier", monospace;
+    font-family: "Palatino", Palatino;
     padding: 30px 10px;
+}
+
+.col-sm-3half, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-3half, .col-sm-8half {
+        float: left;
+    }
+    .col-sm-3half {
+        width: 20%;
+    }
+    .col-sm-8half {
+        width: 80%;
+    }
 }
